@@ -1,0 +1,587 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<title>明星带你去旅行|大神游戏,虚拟与现实结合,重新定义快乐,网页游戏平台</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/top_line.css">
+	<link rel="stylesheet" href="css/index.css">
+	<!--lib css-->
+	<link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/jquery.fullPage.css"/>
+	<link rel="stylesheet" href="css/animate.css">
+	<script src="lib/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<!-- nav bar -->
+<div class="top-line">
+	<div class="top_line_container">
+		<div class="top_line_content clearfix">
+			<div class="top_line_left f-left">
+				<ul class="left_list clearfix">
+					<li><a class="home-a" href="/">返回首页</a></li>
+					<li><a class="favorite-a" href="">收藏本页</a></li>
+					<li><a class="add-desk-a" href="/?ct=download">把游戏大神放到桌面上</a></li>
+					<li><a href="">客服电话：028-67875837</a></li>
+				</ul>
+			</div>
+			<div class="top_line_right f-right">
+				<div class="search-box">
+					<ul class="clearfix">
+						<li>
+							<div class="serch-box">
+								<div class="search clearfix">
+									<form method="get" target="_blank" action="/?ct=search">
+										<div class="select">
+											<a>游戏</a>
+											<div class="part">
+												<a>游戏</a>
+												<a>资讯</a>
+											</div>
+										</div>
+										<input class="enter"  maxlength="22" value="" id="search-input" name="q" type="text" placeholder="请输入搜索内容">
+										<input class="sb-btn" type="submit" value="搜索">
+										<input name="ct" type="hidden" value="search">
+										<input class="search-hidden-type" name="type" type="hidden" value="game">
+									</form>
+								</div>
+							</div>
+						</li>
+						<!----------登录前---------->
+						<li class="login-reg"><a class="userLogin" href="?ct=login&newurl=<{geturl|urlencode}>">登录</a></li>
+						<li class="login-reg"><a class="userReg" href="?ct=register">注册</a></li>
+						<!----------登录前---------->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- nav bar - end -->
+
+<!-- nav-left -->
+<div class="nav-left">
+	<div class="line"></div>
+	<ul class="list-ul">
+		<li><a class="active"><span class="normal"></span><span class="active visible"><span></span></span>首页</a></li>
+		<li><a><span class="normal"></span><span class="active"><span></span></span>活动详情</a></li>
+		<li><a><span class="normal"></span><span class="active"><span></span></span>选择明星</a></li>
+		<li><a><span class="normal"></span><span class="active"><span></span></span>选择主持人</a></li>
+		<li><a><span class="normal"></span><span class="active"><span></span></span>海信大神快乐宝箱</a></li>
+		<li><a><span class="normal"></span><span class="active"><span></span></span>积分榜  礼物榜</a></li>
+		<li><a><span class="normal"></span><span class="active"><span></span></span>旅游地</a></li>
+		<li><span class="icon"></span></li>
+	</ul>
+</div>
+<!-- 玩家信息 -->
+<div class="player-info">
+	<ul>
+		<li class="player-header"><a></a></li>
+		<li>累计充值<br>20000.00￥</li>
+		<li>可用充值<br>2000.00￥</li>
+		<li>我的积分<br>1000.00</li>
+		<li><a href="/?ct=recharge" target="_blank">去充值</a></li>
+	</ul>
+</div>
+<div class="star-travel" id="star-travel">
+	<!-- 第1屏 -->
+	<div class="section page-1">
+		<div class="page-container">
+			<div class="logos">
+				<ul class="clearfix">
+					<li class="ds-logo"><a href="/" target="_blank"></a></li>
+					<li class="hisense-logo"><a></a></li>
+				</ul>
+			</div>
+			<div class="keli-line"></div>
+			<div class="star-box">
+				<ul>
+					<li class="star-1"><a></a></li>
+					<li class="star-2"><a></a></li>
+					<li class="star-3"><a></a></li>
+					<li class="star-4"><a></a></li>
+					<li class="star-5"><a></a></li>
+				</ul>
+			</div>
+			<div class="large-title"></div>
+			<div class="sm-title"></div>
+		</div>
+		<a class="next-page"></a>
+	</div>
+	<!-- 第2屏 -->
+	<div class="section page-2">
+		<div class="page-container">
+			<div class="title"><a></a></div>
+			<div class="text-box">
+				<table style="border-collapse:separate; border-spacing:0 6px;">
+					<tr>
+						<td class="act-title" colspan="2">明星带你去旅行</td>
+					</tr>
+					<tr>
+						<td>活动名称 : </td>
+						<td>明星带你去旅行</td>
+					</tr>
+					<tr>
+						<td>活动时间 : </td>
+						<td>永久</td>
+					</tr>
+					<tr>
+						<td>活动范畴 : </td>
+						<td>大神游戏平台所有游戏</td>
+					</tr>
+					<tr>
+						<td>活动介绍 : </td>
+						<td>对于追星族来说，为爱豆花钱是种快乐；对于程序员来说，今晚不用加班是种快乐；对于父母来说，熊孩子终于开学了是种快乐；而对于
+							游戏玩家来说，快乐是什么？是打BOSS、爆头时那一瞬间的快感？是经历几个月的日日夜夜终于升级熬成了大神？是打怪完成后终于爆出
+							了超好的装备？还是出了新副本又可以崭露头角？以上的一切，皆是看不到摸不着的“快乐”，带给你的感受消纵即逝，今天，大神游戏将
+							重新定义快乐，带给你真实的荣耀体验！<br>
+							大神游戏现与各企业合作（海信、乐奔租车、雨龙租车、iser饮料等企业），让您在玩游戏的同时，享受生活，快乐生活。您在玩游戏时产
+							生的每一笔消费，都会有回报。当您在游戏内消费达到一定金额，大神游戏可以让明星们带您去境外旅行，明星您来挑，主持人您来定。</td>
+					</tr>
+					<tr>
+						<td>参与方式 : </td>
+						<td>（1）您在大神游戏平台里选择任意一款游戏参与“人人有礼”活动一次性充值12000元的玩家，即可获得“明星带你去旅行”境外游7天机会。<br>
+							（2）您在大神游戏平台里选择任意一款游戏累计充值达到24000元，即可获得“明星带你去旅行”境外旅游7天机会（玩家可携带一个人）。<br>
+							（3）参与大神游戏俱乐部活动“海信大神快乐宝箱”活动，也能获得“明星带你去旅行”境外旅游7天。</td>
+					</tr>
+					<tr>
+						<td class="act-title" colspan="2">海信大神快乐宝箱</td>
+					</tr>
+					<tr>
+						<td>活动名称 : </td>
+						<td>海信大神快乐宝箱</td>
+					</tr>
+					<tr>
+						<td>活动时间 : </td>
+						<td>永久</td>
+					</tr>
+					<tr>
+						<td>活动范畴 : </td>
+						<td>大神游戏平台所有游戏</td>
+					</tr>
+					<tr>
+						<td>活动介绍 : </td>
+						<td>玩家在大神游戏平台中选择任意一款游戏参与并充值后，即可获得参与活动的资格。活动通过开启宝箱和自主翻牌的模式，抽取不同的礼物，累
+							积相应的积分，最终获得参与境外旅游的资格。在活动里，是没有“谢谢参与”这一选项的，玩家在活动过程中充值的每一笔费用，都会得到相
+							应的现实礼物回报，从而改善玩家的生活质量，改变玩家的生活方式，真正达到大神游戏想做到的游戏改变生活的目的。</td>
+					</tr>
+					<tr>
+						<td>活动规则 : </td>
+						<td>开启宝箱会消耗累计充值金额，“初入大神”，“创神纪元”，“炼神之路”，“神王之光”“大神戎装”五种宝箱中，每个宝箱藏有9张黄金卡
+							牌，4张现实礼物，5张积分，随机抽取一样，最后一个宝箱“神王戎装”宝箱中装着“明星带你去旅行”和2个神秘礼物。</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!-- 第3屏 -->
+	<div class="section page-3">
+		<div class="page-container">
+			<div class="title"><a></a></div>
+			<div class="title-caption">
+				本栏玩家可自行投票，选择自己喜欢的明星参与主持明星带您去旅行现场事宜，每天不限投票次数，每次投票最低消耗10积分。
+			</div>
+			<!-- 投票前 -->
+			<div class="before-vote">
+				<div id="star-box">
+					<div id="focus_Box">
+						<span class="prev">&nbsp;</span>
+						<span class="next">&nbsp;</span>
+						<ul>
+							<li>
+								<div class="star-desc">
+									主持人、演员、歌手。因在中央电视台担任《万家
+									灯火》和《综艺大观》的主持人被大众熟知，之后
+									转战湖南卫视，担任《金鹰之星》主持人
+								</div>
+								<img src="images/page-3/star1.png" />
+								<i class="name">哈哈1</i>
+								<a class="vote-btn" href="#">投票</a>
+								<i class="hot-num">12314756</i>
+							</li>
+							<li>
+								<div class="star-desc">
+									主持人、演员、歌手。因在中央电视台担任《万家
+									灯火》和《综艺大观》的主持人被大众熟知，之后
+									转战湖南卫视，担任《金鹰之星》主持人
+								</div>
+								<img src="images/page-3/star1.png" />
+								<i class="name">哈哈2</i>
+								<a class="vote-btn" href="#">投票</a>
+								<i class="hot-num">86788888</i>
+							</li>
+							<li>
+								<div class="star-desc">
+									主持人、演员、歌手。因在中央电视台担任《万家
+									灯火》和《综艺大观》的主持人被大众熟知，之后
+									转战湖南卫视，担任《金鹰之星》主持人
+								</div>
+								<img  src="images/page-3/star1.png" />
+								<i class="name">哈哈3</i>
+								<a class="vote-btn" href="#">投票</a>
+								<i class="hot-num">777777</i>
+							</li>
+							<li>
+								<div class="star-desc">
+									主持人、演员、歌手。因在中央电视台担任《万家
+									灯火》和《综艺大观》的主持人被大众熟知，之后
+									转战湖南卫视，担任《金鹰之星》主持人
+								</div>
+								<img  src="images/page-3/star1.png" />
+								<i class="name">哈哈4</i>
+								<a class="vote-btn" href="#">投票</a>
+								<i class="hot-num">444444</i>
+							</li>
+							<li>
+								<div class="star-desc">
+									主持人、演员、歌手。因在中央电视台担任《万家
+									灯火》和《综艺大观》的主持人被大众熟知，之后
+									转战湖南卫视，担任《金鹰之星》主持人
+								</div>
+								<img src="images/page-3/star1.png" />
+								<i class="name">哈哈5</i>
+								<a class="vote-btn" href="#">投票</a>
+								<i class="hot-num">32222</i>
+							</li>
+							<li>
+								<div class="star-desc">
+									主持人、演员、歌手。因在中央电视台担任《万家
+									灯火》和《综艺大观》的主持人被大众熟知，之后
+									转战湖南卫视，担任《金鹰之星》主持人
+								</div>
+								<img src="images/page-3/star1.png" />
+								<i class="name">哈哈6</i>
+								<a class="vote-btn" href="#">投票</a>
+								<i class="hot-num">45646</i>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<script>
+					$('#focus_Box li').on({
+						mouseover:function () {
+							$(this).find(".star-desc").show();
+						},
+						mouseleave:function () {
+							$(this).find(".star-desc").hide();
+						}
+					})
+				</script>
+				<script src="lib/ZoomPic.js"></script>
+			</div>
+			<!-- 投票后 -->
+			<div class="after-vote hidden">
+				<div class="vote-ok-title">感谢你的投票　　投票成功</div>
+				<div class="current-star">
+					<img src="images/page-3/star1.png">
+					<i class="name">哈哈3</i>
+					<div class="desc">
+						主持人、演员、歌手。因在中央电视台担任《万家
+						灯火》和《综艺大观》的主持人被大众熟知，之后
+						转战湖南卫视，担任《金鹰之星》主持人
+					</div>
+					<a class="re-vote" href="#">再投一票</a>
+					<a class="goto-choose">返回</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 第4屏 -->
+	<div class="section page-4">
+		<div class="page-container">
+			<div class="title"><a></a></div>
+			<div class="title-caption">
+				本栏玩家可自行投票，选择自己喜欢的主持人参与主持明星带您去旅行现场事宜，每天不限投票次数，每次投票最低消耗10积分。
+			</div>
+			<!-- 投票前 -->
+			<div class="before-vote hidden">
+				<ul>
+					<li>
+						<div class="star-desc">
+							主持人、演员、歌手。因在中央电视台担任《万家
+							灯火》和《综艺大观》的主持人被大众熟知，之后
+							转战湖南卫视，担任《金鹰之星》主持人
+						</div>
+						<img src="images/page-3/star1.png" />
+						<i class="name">哈哈1</i>
+						<a class="vote-btn" href="#">投票</a>
+						<i class="hot-num">12314756</i>
+					</li>
+					<li>
+						<div class="star-desc">
+							主持人、演员、歌手。因在中央电视台担任《万家
+							灯火》和《综艺大观》的主持人被大众熟知，之后
+							转战湖南卫视，担任《金鹰之星》主持人
+						</div>
+						<img src="images/page-3/star1.png" />
+						<i class="name">哈哈2</i>
+						<a class="vote-btn" href="#">投票</a>
+						<i class="hot-num">86788888</i>
+					</li>
+					<li>
+						<div class="star-desc">
+							主持人、演员、歌手。因在中央电视台担任《万家
+							灯火》和《综艺大观》的主持人被大众熟知，之后
+							转战湖南卫视，担任《金鹰之星》主持人
+						</div>
+						<img  src="images/page-3/star1.png" />
+						<i class="name">哈哈3</i>
+						<a class="vote-btn" href="#">投票</a>
+						<i class="hot-num">777777</i>
+					</li>
+					<li>
+						<div class="star-desc">
+							主持人、演员、歌手。因在中央电视台担任《万家
+							灯火》和《综艺大观》的主持人被大众熟知，之后
+							转战湖南卫视，担任《金鹰之星》主持人
+						</div>
+						<img  src="images/page-3/star1.png" />
+						<i class="name">哈哈4</i>
+						<a class="vote-btn" href="#">投票</a>
+						<i class="hot-num">444444</i>
+					</li>
+				</ul>
+				<script>
+					$('.before-vote li').on({
+						mouseover:function () {
+							$(this).find(".star-desc").show();
+						},
+						mouseleave:function () {
+							$(this).find(".star-desc").hide();
+						}
+					})
+				</script>
+			</div>
+			<!-- 投票后 -->
+			<div class="after-vote">
+				<div class="vote-ok-title">感谢你的投票　　投票成功</div>
+				<div class="current-star">
+					<img src="images/page-3/star1.png">
+					<i class="name">哈哈3</i>
+					<div class="desc">
+						主持人、演员、歌手。因在中央电视台担任《万家
+						灯火》和《综艺大观》的主持人被大众熟知，之后
+						转战湖南卫视，担任《金鹰之星》主持人
+					</div>
+					<a class="re-vote" href="#">再投一票</a>
+					<a class="goto-choose">返回</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 第5屏 -->
+	<div class="section page-5">
+		<div class="title"><a></a></div>
+		<div class="title-caption">
+			开启宝箱会消耗累计充值金额，“初入大神”，“创神纪元”，“炼神之路”，“神王之光”“大神戎装”五种宝箱中，<br>
+			每个宝箱藏有9张黄金卡牌，4张现实礼物，5张积分，随机抽取一样，最后一个宝箱“神王戎装”宝箱中装着“明星带你去旅行”和2个神秘礼物。
+		</div>
+		<!-- 打开宝箱后 -->
+		<div class="page-container hidden">
+			<div class="box-1 box-container"><i class="icon"></i><i class="name">初入大神</i><a class="finish" href="#"></a></div>
+			<div class="box-2 box-container"><i class="icon"></i><i class="name">创神纪元</i><a href="#"></a></div>
+			<div class="box-3 box-container"><i class="icon"></i><i class="name">炼神之路</i><a href="#"></a></div>
+			<div class="box-4 box-container"><i class="icon"></i><i class="name">神往之光</i><a href="#"></a></div>
+			<div class="box-5 box-container"><i class="name">大神戎装</i><a href="#"></a></div>
+		</div>
+		<!-- 打开宝箱后 -->
+		<div class="gift-container">
+			<a class="open-box"><i>初入大神</i></a>
+			<a class="r-btn get-gift" href="#">领取礼物</a>
+			<a class="r-btn goto-boxPage">返回继续开宝箱</a>
+			<div class="giftCard-container">
+				<a class="gift-title">恭喜你获得“华为P9”</a>
+				<a class="gift-desc">走进池塘，你是静止的；走进黄河，你是奔腾的走进浅坑，你是微小的；走进海洋</a>
+				<!-- 前四个宝箱 礼物 -->
+				<ul class="beforeFive">
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+				<!-- 大神戎装 礼物 -->
+				<ul class="fifth hidden">
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="line"></div>
+		<div class="box-caption">
+			<ul>
+				<li><i>*活动规则:</i>（1）开启一次”初入大神”宝箱需消耗50元人民币，宝箱的积分达到500积分后，即可开启“创神纪元”宝箱，积分叠加。</li>
+				<li class="sj-format">（2）开启一次“创神纪元”宝箱需消耗100元人民币，宝箱的积分达到1500积分后，即可开启“炼神之路”宝箱，积分叠加。</li>
+				<li class="sj-format">（3）开启一次“炼神之路”宝箱需消耗200元人民币，宝箱的积分达到3500积分后，即可开启“神王之光”宝箱，积分叠加。</li>
+				<li class="sj-format">（4）开启一次“神往之光”宝箱需消耗400元人民币，宝箱的积分达到4000积分后，即可开启“大神时代”宝箱，积分不叠加。</li>
+				<li class="sj-format">（5）开启一次“大神戎装”宝箱需消耗10000元人民币，开启后必得现实豪礼。</li>
+				<li><i>*礼物领取</i>: 开启宝箱获得实物的玩家，由大神游戏平台邮寄发出。</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 第6屏 -->
+	<div class="section page-6">
+		<div class="line"></div>
+		<div class="tab">
+			<ul>
+				<li><a class="normal">玩家<br>积分榜</a><a class="hover h-1">玩家<br>积分榜</a></li>
+				<li><a class="normal">礼物<br>领取榜</a><a class="hover h-2">礼物<br>领取榜</a></li>
+			</ul>
+		</div>
+		<div class="page-container">
+			<div class="title"><a></a></div>
+			<div class="content">
+				<div>
+					<ul class="title-ul clearfix">
+						<li class="width-165">玩家</li>
+						<li class="width-139">游戏</li>
+						<li class="width-165">区服</li>
+						<li class="width-199">积分</li>
+						<li class="width-274">时间</li>
+					</ul>
+					<div class="scroll-visible">
+						<ul class="content-ul clearfix">
+							<li class="width-166"><i class="red">1</i>s1.123456...</li><!-- 9个字符 s1.123456 -->
+							<li class="width-139">神魔传说</li>
+							<li class="width-166">神魔传说创神1服</li>
+							<li class="width-203">2780.00</li>
+							<li class="width-274">2017.09.04—10:50</li>
+						</ul>
+						<ul class="content-ul clearfix">
+							<li class="width-166"><i class="red">2</i>s1.六道真人</li>
+							<li class="width-139">神魔传说</li>
+							<li class="width-166">神魔传说创神1服</li>
+							<li class="width-203">2780.00</li>
+							<li class="width-274">2017.09.04—10:50</li>
+						</ul>
+						<ul class="content-ul clearfix">
+							<li class="width-166"><i class="red">3</i>s1.六道真人</li>
+							<li class="width-139">神魔传说</li>
+							<li class="width-166">神魔传说创神1服</li>
+							<li class="width-203">2780.00</li>
+							<li class="width-274">2017.09.04—10:50</li>
+						</ul>
+						<ul class="content-ul clearfix">
+							<li class="width-166"><i>4</i>s1.六道真人</li>
+							<li class="width-139">神魔传说</li>
+							<li class="width-166">神魔传说创神1服</li>
+							<li class="width-203">2780.00</li>
+							<li class="width-274">2017.09.04—10:50</li>
+						</ul>
+					</div>
+				</div>
+				<div>
+					<ul class="title-ul clearfix">
+						<li class="width-165">玩家</li>
+						<li class="width-139">游戏</li>
+						<li class="width-165">区服</li>
+						<li class="width-199">领取礼物</li>
+						<li class="width-274">时间</li>
+					</ul>
+					<div class="scroll-visible">
+						<ul class="content-ul clearfix">
+							<li class="width-166"><i class="red">1</i>s1.123456...</li><!-- 9个字符 s1.123456 -->
+							<li class="width-139">神魔传说</li>
+							<li class="width-166">神魔传说创神1服</li>
+							<li class="width-203">iPhone7一部</li>
+							<li class="width-274">2017.09.04—10:50</li>
+						</ul>
+						<ul class="content-ul clearfix">
+							<li class="width-166"><i class="red">2</i>s1.六道真人</li>
+							<li class="width-139">神魔传说</li>
+							<li class="width-166">神魔传说创神1服</li>
+							<li class="width-203">iPhone7一部</li>
+							<li class="width-274">2017.09.04—10:50</li>
+						</ul>
+						<ul class="content-ul clearfix">
+							<li class="width-166"><i class="red">3</i>s1.六道真人</li>
+							<li class="width-139">神魔传说</li>
+							<li class="width-166">神魔传说创神1服</li>
+							<li class="width-203">iPhone7一部</li>
+							<li class="width-274">2017.09.04—10:50</li>
+						</ul>
+						<ul class="content-ul clearfix">
+							<li class="width-166"><i>4</i>s1.六道真人</li>
+							<li class="width-139">神魔传说</li>
+							<li class="width-166">神魔传说创神1服</li>
+							<li class="width-203">iPhone7一部</li>
+							<li class="width-274">2017.09.04—10:50</li>
+						</ul>
+					</div>
+				</div>
+				<script>
+					//---鼠标移入
+					$(function(){
+						var hover_1 = $(".page-6 .tab ul li a.hover:eq(0)");
+						var hover_2 = $(".page-6 .tab ul li a.hover:eq(1)");
+						var content_1 = $(".page-6 .page-container .content>div:eq(0)");
+						var content_2 = $(".page-6 .page-container .content>div:eq(1)");
+						hover_1.show();
+						content_1.show();content_2.hide();
+						$(".page-6 .tab ul li a.normal:eq(0)").hover(function(){
+							hover_1.show();hover_2.hide();
+							content_1.show();content_2.hide();
+						});
+						$(".page-6 .tab ul li a.normal:eq(1)").hover(function(){
+							hover_2.show();hover_1.hide();
+							content_1.hide();content_2.show();
+						})
+					})
+				</script>
+			</div>
+		</div>
+	</div>
+	<!-- 第7屏 -->
+	<div class="section page-7">
+		<div class="page-container">
+			<div class="title"><a></a></div>
+			<div class="line"></div>
+			<div class="tab">
+				<ul class="clearfix">
+					<li><a class="ready on">美国塞班岛<br>6日5晚跟团游</a></li>
+					<li><a class="ready">马尔代夫莉莉岛<br>7日5晚半自助游</a></li>
+					<li><a class="future">敬请期待</a></li>
+					<li><a class="future">敬请期待</a></li>
+					<li><a class="future">敬请期待</a></li>
+				</ul>
+			</div>
+			<div class="travel-step Saipan">
+				<div class="title"></div>
+			</div>
+			<div class="travel-step Maldives">
+				<div class="title"></div>
+			</div>
+			<script>
+				//---鼠标移入
+				$(function(){
+					var hover_1 = $(".page-7 .page-container .tab ul li:eq(0)");
+					var hover_2 = $(".page-7 .page-container .tab ul li:eq(1)");
+					var Saipan = $(".page-7 .page-container .Saipan");
+					var Maldives = $(".page-7 .page-container .Maldives");
+					Saipan.show();Maldives.hide();
+					hover_1.hover(function(){
+						Saipan.show();Maldives.hide();
+						$(this).find('a').addClass('on');
+						hover_2.find('a').removeClass('on');
+					});
+					hover_2.hover(function(){
+						Saipan.hide();Maldives.show();
+						$(this).find('a').addClass('on');
+						hover_1.find('a').removeClass('on');
+					})
+				})
+			</script>
+		</div>
+	</div>
+</div>
+</body>
+<script src="lib/jquery.fullPage.min.js"></script>
+<script src="lib/jquery.easing.1.3.js"></script>
+<script src="js/main.js"></script>
+</html>

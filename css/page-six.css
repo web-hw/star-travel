@@ -1,0 +1,125 @@
+.page-6 .page-container{height:100%;width:90%;margin:auto;position:relative;}
+.page-6 .page-container .title{height:7%;width:50%;position:absolute;left:50%;margin-left:-25%;top:10%;
+	background:url("../images/page-2/title-bg.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-6 .page-container .title a{height:40%;width:30%;position:absolute;left:50%;top:30%;margin-left:-14.5%;
+	background:url("../images/page-6/title.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+
+.page-6 .line{width:100%;height:2px;border-bottom:1px #947f4a solid;position:absolute;top:25%;}
+.page-6 .tab{width:20%;height:11%;position:absolute;top:20%;left:50%;margin-left:-10%;z-index:10;}
+.page-6 .tab{width:20%;height:11%;position:absolute;top:20%;left:50%;margin-left:-10%;}
+.page-6 .tab ul{height:100%;}
+.page-6 .tab ul li{float:left;width:50%;height:100%;position:relative;}
+.page-6 .tab ul li:last-child{text-align:right;}
+.page-6 .tab ul li a{font-size:19px;display:inline-block;text-align:center;cursor:pointer;}
+.page-6 .tab ul li a:hover{text-decoration:none;}
+.page-6 .tab ul li a.normal{padding-top:11%;width:44%;height:100%;background:url("../images/page-6/tab-normal.png") no-repeat;color:#d8af55;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-6 .tab ul li a.hover{padding-top:27%;width:44%;height:127%;position:absolute;bottom:1.5%;background:url("../images/page-6/tab-hover.png") no-repeat;color:#121212;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	display:none;
+}
+.page-6 .tab ul li a.h-1{ left: 0;}
+.page-6 .tab ul li a.h-2{ right: 0;}
+
+/*当屏幕最大宽度为1366px时：*/
+@media screen and (max-width:1366px) {
+	.page-6 .tab ul li a{font-size:12px;}
+	
+}
+/*当屏幕最大宽度为1800px时：*/
+@media screen and (max-width:1800px) {
+	.page-6 .tab ul li a{font-size:16px;}
+	
+}
+/*当屏幕最大宽度为1680px时：*/
+@media screen and (max-width:1680px) {
+	.page-6 .tab ul li a{font-size:15px;}
+	
+}
+/*当屏幕最大宽度为1600px时：*/
+@media screen and (max-width:1600px) {
+	.page-6 .tab ul li a{font-size:14px;}
+	
+}
+
+.page-6 .page-container .content{width:950px;height:495px;position:absolute;left:50%;top:35%;margin-left:-475px;}
+.page-6 .page-container .content>div{position:absolute;left:0;top:0;}
+.page-6 .page-container .content ul{width:100%;}
+.page-6 .page-container .content ul.title-ul{font-size:19px;margin-bottom:5px;}
+.page-6 .page-container .content ul.title-ul li{float:left;height:35px;line-height:35px;text-align:center;background-color:#d8af55;margin-right:2px;}
+.page-6 .page-container .content ul.title-ul li:last-child{margin-right:0;}
+.page-6 .page-container .content ul.title-ul li.width-165{width:165px;}
+.page-6 .page-container .content ul.title-ul li.width-139{width:139px;}
+.page-6 .page-container .content ul.title-ul li.width-199{width:199px;}
+.page-6 .page-container .content ul.title-ul li.width-274{width:274px;}
+
+.page-6 .page-container .content ul.content-ul{font-size:16px;color:#d8af55;margin-bottom:0;}
+.page-6 .page-container .content ul.content-ul li{float:left;height:50px;line-height:50px;text-align:center;border:1px #d8af55 solid;}
+.page-6 .page-container .content ul.content-ul li:first-child{padding-left:15px;position:relative;text-overflow:ellipsis;}
+.page-6 .page-container .content ul.content-ul li:first-child i{display:inline-block;width:29px;height:29px;border:1px #d5ad54 solid;position:absolute;top:10px;left:10px;line-height:29px;}
+.page-6 .page-container .content ul.content-ul li:first-child i.red{background-color:#e60012;border:1px #e60012 solid;}
+.page-6 .page-container .content ul.content-ul li.width-166{width:166px;}
+.page-6 .page-container .content ul.content-ul li.width-139{width:139px;}
+.page-6 .page-container .content ul.content-ul li.width-203{width:203px;}
+.page-6 .page-container .content ul.content-ul li.width-274{width:255px;}
+
+.page-6 .page-container .content .scroll-visible{height:450px;overflow-y:scroll;border:1px #d8af55 solid;
+	/*三角箭头的颜色*/
+	scrollbar-arrow-color: #242017;
+	/*滚动条滑块按钮的颜色*/
+	scrollbar-face-color: #d8af55;
+	/*滚动条整体颜色*/
+	scrollbar-highlight-color: #333;
+	/*滚动条轨道颜色*/
+	scrollbar-track-color: #242017;
+}
+/*滚动条整体部分*/
+::-webkit-scrollbar{background-color: #242017;}
+/*滚动条的轨道*/
+::-webkit-scrollbar-track{background-color: #242017;}
+/*滚动条的滑块按钮*/
+::-webkit-scrollbar-thumb{background-color: #d8af55;}
+/*滚动条的上下两端的按钮*/
+::-webkit-scrollbar-button{height: 10px;background-color: #242017;}
+
+/*当屏幕最大宽度为1366px时：*/
+@media screen and (max-width:1366px) {
+	.page-6 .page-container .content .scroll-visible{height:312px;overflow-y:scroll;border:1px #d8af55 solid;
+		/*三角箭头的颜色*/
+		scrollbar-arrow-color: #242017;
+		/*滚动条滑块按钮的颜色*/
+		scrollbar-face-color: #d8af55;
+		/*滚动条整体颜色*/
+		scrollbar-highlight-color: #333;
+		/*滚动条轨道颜色*/
+		scrollbar-track-color: #242017;
+	}
+	.page-6 .page-container .content{width:950px;height:350px;position:absolute;left:50%;top:35%;margin-left:-475px;}
+	.page-6 .page-container .content ul{width:100%;}
+	.page-6 .page-container .content ul.title-ul{font-size:19px;}
+	.page-6 .page-container .content ul.title-ul li{float:left;height:40px;line-height:40px;text-align:center;background-color:#d8af55;margin-right:2px;}
+	.page-6 .page-container .content ul.title-ul li:last-child{margin-right:0;}
+	.page-6 .page-container .content ul.title-ul li.width-165{width:165px;}
+	.page-6 .page-container .content ul.title-ul li.width-139{width:139px;}
+	.page-6 .page-container .content ul.title-ul li.width-199{width:199px;}
+	.page-6 .page-container .content ul.title-ul li.width-274{width:274px;}
+	
+	.page-6 .page-container .content ul.content-ul{font-size:16px;color:#d8af55;margin:-5px 0 0 0;}
+	.page-6 .page-container .content ul.content-ul li{float:left;height:35px;line-height:35px;text-align:center;border:1px #d8af55 solid;border-top:0;}
+	.page-6 .page-container .content ul.content-ul li:first-child{padding-left:15px;position:relative;text-overflow:ellipsis;}
+	.page-6 .page-container .content ul.content-ul li:first-child i{display:inline-block;width:20px;height:20px;border:1px #d5ad54 solid;position:absolute;top:8px;left:10px;line-height:20px;}
+	.page-6 .page-container .content ul.content-ul li:first-child i.red{background-color:#e60012;border:1px #e60012 solid;}
+	.page-6 .page-container .content ul.content-ul li.width-166{width:166px;}
+	.page-6 .page-container .content ul.content-ul li.width-139{width:139px;}
+	.page-6 .page-container .content ul.content-ul li.width-203{width:203px;}
+	.page-6 .page-container .content ul.content-ul li.width-274{width:255px;}
+}

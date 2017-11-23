@@ -1,0 +1,35 @@
+.page-2 .page-container{height:100%;width:90%;margin:auto;position:relative;}
+.page-2 .page-container .title{height:7%;width:50%;position:absolute;left:50%;margin-left:-25%;top:10%;
+	background:url("../images/page-2/title-bg.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-2 .page-container .title a{height:40%;width:30%;position:absolute;left:50%;top:30%;margin-left:-14.5%;
+	background:url("../images/page-2/title.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+/*当屏幕最min宽度为1366px时：*/
+@media screen and (min-width:1366px) {
+	.page-2 .page-container .text-box{height:65%;width:70%;position:absolute;left:50%;top:25%;margin-left:-35%;
+		background:url("../images/page-2/caption-bg.png") no-repeat;
+		-webkit-background-size:100% 100%;
+		background-size:100% 100%;
+	}
+	.page-2 .page-container .text-box table{color:#f8d478;width:800px;margin:2% auto 0;font-size:12px;}
+	.page-2 .page-container .text-box table tr td{line-height:18px;}
+	.page-2 .page-container .text-box table tr td:first-child{width:190px;vertical-align:top;}
+	.page-2 .page-container .text-box table tr td.act-title{width:100%;font-size:24px;height:50px;vertical-align:bottom;padding-bottom:5px;}
+}
+/*当屏幕最大宽度为1366px时：*/
+@media screen and (max-width:1366px) {
+	.page-2 .page-container .text-box{height:75%;width:70%;position:absolute;left:50%;top:20%;margin-left:-35%;
+		background:url("../images/page-2/caption-bg.png") no-repeat;
+		-webkit-background-size:100% 100%;
+		background-size:100% 100%;
+	}
+	.page-2 .page-container .text-box table{color:#f8d478;width:800px;margin:1% auto 0;font-size:12px;}
+	.page-2 .page-container .text-box table tr td{line-height:16px;}
+	.page-2 .page-container .text-box table tr td:first-child{width:190px;vertical-align:top;}
+	.page-2 .page-container .text-box table tr td.act-title{width:100%;font-size:24px;height:30px;vertical-align:bottom;}
+}

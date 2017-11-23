@@ -1,0 +1,81 @@
+/*当屏幕最小宽度为1366px时：*/
+@media screen and (min-width:1366px) {
+}
+/*当屏幕最小宽度为900px时，相当于笔记本PC端：*/
+/*@media screen and (min-width:900px) and (max-width:1366px) {*/
+	.page-1 a.next-page{display:inline-block;width:3%;height:5%;background:url("../images/page-1/next-page.png") no-repeat;position:absolute;bottom:18%;left:50%;margin-left:-1.4%;cursor:pointer;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	animation:next-page 2s infinite ease;
+	-webkit-animation:next-page 2s infinite ease;
+	}
+/*}*/
+/*当屏幕宽度在600~900px时，相当于平板电脑大小的设备：*/
+@media screen and (min-width:600px) and (max-width:900px){
+}
+/*当屏幕宽度在小于等于600px时，即移动端（手机端）：*/
+@media screen and (max-width:600px) {
+}
+/*---------------------------------------------------- LOGO ----------------------------------------------------------*/
+.page-1 .page-container{height:100%;width:90%;margin:auto;position:relative;}
+.page-1 .page-container .logos{height:10%;width:75%;position:relative;margin:3% auto 0;}
+.page-1 .page-container .logos ul{height:100%;width:75%;position:absolute;}
+.page-1 .page-container .logos ul li{height:100%;float:left;margin-right:2%;position:relative;}
+.page-1 .page-container .logos ul li a{display:block;width:100%;position:absolute;bottom:0;}
+.page-1 .page-container .logos ul li.ds-logo{width:30%;}
+/*.active .page-container .logos ul li.ds-logo{animation:next-page 2s infinite ;}*/
+.page-1 .page-container .logos ul li.ds-logo a{height:70%;background:url("../images/page-1/dslogo-white.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-1 .page-container .logos ul li.hisense-logo{width:22%;}
+.page-1 .page-container .logos ul li.hisense-logo a{height:55%;background:url("../images/page-1/Hisense.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+/*---------------------------------------------------- LOGO ----------------------------------------------------------*/
+.page-1 .page-container .keli-line{width:50%;height:10%;position:absolute;left:28%;top:47%;background:url("../images/page-1/keli-line.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+
+/*---------------------------------------------------- title ----------------------------------------------------------*/
+.page-1 .page-container .large-title{width:35%;height:26%;position:absolute;left:50%;top:37%;margin-left:-17%;background:url("../images/page-1/large-title.png") no-repeat;z-index:6;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-1 .page-container .sm-title{width:42%;height:13%;position:absolute;left:50%;top:58%;margin-left:-16%;background:url("../images/page-1/sm-title.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+/*---------------------------------------------------- title ----------------------------------------------------------*/
+
+.page-1 .page-container .star-box{width:50%;height:35%;position:absolute;left:50%;top:17%;margin-left:-26%;}
+.page-1 .page-container .star-box ul{width:80%;height:100%;margin-left:8%;}
+.page-1 .page-container .star-box ul li{float:left;width:20%;height:100%;position:relative;}
+.page-1 .page-container .star-box ul li a{display:inline-block;position:absolute;}
+.page-1 .page-container .star-box ul li.star-1{width:16%;}
+.page-1 .page-container .star-box ul li.star-2{width:22%;}
+.page-1 .page-container .star-box ul li.star-3{width:24%;}
+.page-1 .page-container .star-box ul li.star-4{width:22%;}
+.page-1 .page-container .star-box ul li.star-5{width:16%;}
+.page-1 .page-container .star-box ul li.star-1 a{height:68%;width:150%;background:url("../images/page-1/star-one.png") no-repeat;bottom:1%;z-index:5;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-1 .page-container .star-box ul li.star-2 a{height:85%;width:150%;background:url("../images/page-1/star-two.png") no-repeat;bottom:2%;left:10%;z-index:4;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-1 .page-container .star-box ul li.star-3 a{height:100%;width:160%;background:url("../images/page-1/start-three.png") no-repeat;bottom:3%;left:10%;z-index:3;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-1 .page-container .star-box ul li.star-4 a{height:85%;width:160%;background:url("../images/page-1/star-four.png") no-repeat;bottom:4%;left:10%;z-index:2;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-1 .page-container .star-box ul li.star-5 a{height:67%;width:200%;background:url("../images/page-1/star-five.png") no-repeat;bottom:5%;z-index:1;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}

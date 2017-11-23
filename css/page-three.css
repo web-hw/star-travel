@@ -1,0 +1,57 @@
+.page-3 .page-container{height:100%;width:90%;margin:auto;position:relative;}
+.page-3 .page-container .title{height:7%;width:50%;position:absolute;left:50%;margin-left:-25%;top:10%;
+	background:url("../images/page-2/title-bg.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-3 .page-container .title a{height:40%;width:30%;position:absolute;left:50%;top:30%;margin-left:-14.5%;
+	background:url("../images/page-3/title.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-3 .page-container .title-caption{width:60%;position:absolute;top:18%;left:50%;margin-left:-30%;text-align:center;color:#f8d678;font-size:12px;}
+
+
+/* ####################################################
+									投票前
+					#################################################### */
+.page-3 .page-container .before-vote{width:1143px;height:60%;position:absolute;top:30%;left:50%;margin-left:-570px;}
+.page-3 .page-container .before-vote #star-box{width:100%;height:100%;}
+
+
+#focus_Box{position:relative;width:1143px;height:308px;}
+#focus_Box ul{position:relative;width:80%;height:308px;}
+#focus_Box li{z-index:0;position:absolute; width:0;height:0;top:146px;cursor:pointer;left:377px;border-radius:4px;
+	background:url("../images/page-3/pic-normal-bg.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+#focus_Box li img{width:100%;height:82%;position:absolute;top:-5%;}
+#focus_Box .prev,#focus_Box .next{display:block;z-index:100;overflow:hidden;cursor:pointer;position:absolute;width:68px;height:95px;top:180px;}
+#focus_Box .prev{left:30px;background:url('../images/page-3/prev-normal.png') left bottom no-repeat;background-size:100% 100%;}
+#focus_Box .next{right:80px;background:url('../images/page-3/next-normal.png') right bottom no-repeat;background-size:100% 100%;}
+#focus_Box .prev:hover{background:url("../images/page-3/prev-hover.png");}
+#focus_Box .next:hover{background:url("../images/page-3/next-hover.png");}
+
+#focus_Box li i,#focus_Box li a{display:block;height:7%;width:70%;text-align:center;position:absolute;left:50%;margin-left:-35%;}
+#focus_Box li i.name{color:#f2c95f;font-size:23px;bottom:17%;}
+#focus_Box li i.hot-num{color:#061222;font-size:17px;bottom:3%;padding-top:3%;background:url("../images/page-3/fire.png") no-repeat;background-size:100% 100%;}
+#focus_Box li a.vote-btn{color:#fff;font-size:17px;bottom:10%;padding-top:2%;background:url("../images/page-3/vote-btn.png") no-repeat;background-size:100% 100%;}
+#focus_Box li .star-desc{width:85%;height:39%;background-color:rgba(0,0,0,.8);position:absolute;left:8%;top:38%;z-index:5;font-size:13px;color:#fff;padding:5% 8%;line-height:25px;display:none;}
+
+/* ####################################################
+									投票后
+					#################################################### */
+.page-3 .page-container .after-vote{width:1143px;height:60%;position:absolute;top:25%;left:50%;margin-left:-570px;}
+.page-3 .page-container .after-vote .vote-ok-title{width:580px;font-size:48px;position:absolute;top:-50px;left:50%;margin-left:-290px;font-family:华文行楷;color:#d7af62;}
+.page-3 .page-container .after-vote .current-star{width:344px;height:604px;position:absolute;top:8%;left:50%;margin-left:-170px;
+	background:url("../images/page-3/after-vote.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-3 .page-container .after-vote .current-star img{width:100%;height:74%;position:absolute;top:-5%;}
+.page-3 .page-container .after-vote .current-star i.name{width:90%;height:5%;position:absolute;bottom:26%;left:5%;font-size:26px;color:#d7af62;text-align:center;}
+.page-3 .page-container .after-vote .current-star .desc{width:90%;height:20%;position:absolute;bottom:5%;left:5%;color:#fff;font-size:13px;line-height:25px;}
+.page-3 .page-container .after-vote .current-star a{display:block;width:35%;height:6%;position:absolute;bottom:4%;color:#fff;text-align:center;padding-top:2%;font-size:18px;text-decoration:none;}
+.page-3 .page-container .after-vote .current-star a.re-vote{background-color:#2483b2;left:5%;}
+.page-3 .page-container .after-vote .current-star a.goto-choose{background-color:#d8af55;right:5%;cursor:pointer;}

@@ -1,0 +1,18 @@
+.page-1
+	{
+		background:url("../images/page-1/page-one-bg.jpg") no-repeat center top;
+		-webkit-background-size: 100% 100%;
+		background-size:100% 100%;
+	}
+.page-2,.page-3,.page-4,.page-6,.page-7
+	{
+		background:url("../images/page-2/page-two-bg.jpg") no-repeat center top;
+		-webkit-background-size: 100% 100%;
+		background-size:100% 100%;
+	}
+.page-5
+	{
+		background:url("../images/page-5/page-five-bg.jpg") no-repeat center top;
+		-webkit-background-size:100% 100%;
+		background-size:100% 100%;
+	}

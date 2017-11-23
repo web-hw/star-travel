@@ -1,0 +1,21 @@
+/*--------- page-1 下一页按钮 --------*/
+@keyframes next-page {
+	0%{bottom:18%;}
+	100%{bottom:12%;opacity:0;}
+}
+@-o-keyframes next-page {
+	0%{bottom:18%;}
+	100%{bottom:12%;opacity:0;}
+}
+@-ms-keyframes next-page {
+	0%{bottom:18%;}
+	100%{bottom:12%;opacity:0;}
+}
+@-moz-keyframes next-page {
+	0%{bottom:18%;}
+	100%{bottom:12%;opacity:0;}
+}
+@-webkit-keyframes next-page {
+	0%{bottom:18%;}
+	100%{bottom:12%;opacity:0;}
+}

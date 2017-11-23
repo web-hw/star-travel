@@ -1,0 +1,113 @@
+.page-5 .page-container .box-container i.name,
+.page-5 .box-caption,
+.page-5 .gift-container a.open-box i,
+.page-5 .gift-container a.r-btn,
+.page-5 .gift-container .giftCard-container a.gift-desc
+{
+	font-family:汉仪大隶书简;
+}
+
+.page-5 .page-container{height:100%;width:90%;margin:auto;position:relative;}
+.page-5 .line{width:70%;height:2px;border-bottom:1px #947f4a solid;position:absolute;top:78%;left:50%;margin-left:-35%;}
+.page-5 .title{height:7%;width:50%;position:absolute;left:50%;margin-left:-25%;top:10%;
+	background:url("../images/page-2/title-bg.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-5 .title a{height:40%;width:30%;position:absolute;left:50%;top:30%;margin-left:-14.5%;
+	background:url("../images/page-5/title.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-5 .title-caption{width:780px;position:absolute;top:18%;left:50%;margin-left:-390px;text-align:center;color:#f8d678;font-size:12px;font-family:微软雅黑;}
+.page-5 .page-container .box-container{
+	background:url("../images/page-5/box-light-close.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-5 .page-container .box-container{position: relative;}
+.page-5 .page-container .box-container i{display:block;}
+.page-5 .page-container .box-container a{display:block;width:30%;height:10%;line-height:32px;font-size:14px;color:#520017;text-align:center;font-weight:bold;text-decoration:none;position:absolute;bottom:5%;left:32%;z-index:5;
+	background:url("../images/page-5/btn-nofinish.jpg") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-5 .page-container .box-container a.finish{background:url("../images/page-5/btn-finish.jpg");
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;}
+.page-5 .page-container .box-container i.name{width:130px;height:21px;line-height:21px;color:#f9d67a;font-size:30px;position:absolute;bottom:20%;left:30%;}
+/*当屏幕最大宽度为1366px时：*/
+@media screen and (max-width:1366px) {
+	.page-5 .page-container .box-container i.name{font-size:20px;position:absolute;bottom:19.5%;left:30%;}
+}
+.page-5 .page-container .box-1{width:20%;height:30%;position:absolute;top:17%;left:22%;}
+.page-5 .page-container .box-2{width:20%;height:30%;position:absolute;top:17%;left:58%;}
+.page-5 .page-container .box-3{width:20%;height:30%;position:absolute;top:48%;left:22%;}
+.page-5 .page-container .box-4{width:20%;height:30%;position:absolute;top:48%;left:58%;}
+.page-5 .page-container .box-5{width:38%;height:70%;position:absolute;top:16%;left:32%;
+	background:url("../images/page-5/box-5-close.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-5 .page-container .box-5 i.name{position:absolute;bottom:30%;left:37%;}
+.page-5 .page-container .box-5 a{width:16%;height:4.5%;position:absolute;bottom:24%;left:38%;}
+.page-5 .page-container .box-1 i.icon{width:42%;height:38%;position:absolute;top:60%;left:54%;margin:-25% 0 0 -25%;
+	background:url("../images/page-5/box-1-close.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-5 .page-container .box-2 i.icon{width:42%;height:38%;position:absolute;top:60%;left:53%;margin:-25% 0 0 -25%;
+	background:url("../images/page-5/box-2-close.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-5 .page-container .box-3 i.icon{width:42%;height:42%;position:absolute;top:60%;left:52%;margin:-25% 0 0 -25%;
+	background:url("../images/page-5/box-3-close.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-5 .page-container .box-4 i.icon{width:44%;height:44%;position:absolute;top:57%;left:52%;margin:-25% 0 0 -25%;
+	background:url("../images/page-5/box-4-close.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-5 .box-caption{width:900px;height:20%;position:absolute;bottom:2%;left:50%;margin:-25% 0 0 -450px;color:#f9d67a;font-size:14px;padding-top:5px;}
+.page-5 .box-caption ul li.sj-format{padding-left:90px;}
+.page-5 .box-caption ul li i{font-size:18px;}
+
+
+/* ##################################################### 打开宝箱后 ########################################################## */
+.page-5 .gift-container{height:100%;width:90%;margin:auto;position:relative;}
+.page-5 .gift-container a.open-box{display:block;width:30%;height:48%;position:absolute;top:25%;right:6%;
+	background:url("../images/page-5/box-1-open.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-5 .gift-container a.open-box i{display:block;width:39px;height:190px;position:absolute;top:25%;left:15%;font-size:36px;color:#f9d67a;}
+.page-5 .gift-container a.r-btn{display:block;font-size:24px;height:26px;line-height:26px;text-align:center;color:#f9d67a;border:1px #f9d67a solid;text-decoration:none;}
+.page-5 .gift-container a.r-btn:hover{background-color:#f9d67a;color:#513417;}
+.page-5 .gift-container a.get-gift{width:113px;position:absolute;bottom:30%;left:72%;}
+.page-5 .gift-container a.goto-boxPage{width:196px;position:absolute;bottom:25%;left:72%;cursor:pointer;}
+.page-5 .gift-container .giftCard-container{width:50%;height:50%;position:absolute;bottom:25%;left:18%;}
+.page-5 .gift-container .giftCard-container a.gift-title{width:100%;height:10%;position:absolute;top:0;font-size:48px;font-family:华文行楷;text-align:center;color:#f9d67a;text-decoration:none;display:block;}
+.page-5 .gift-container .giftCard-container a.gift-desc{width:10%;height:100%;position:absolute;top:0;right:2%;font-size:18px;color:#f9d67a;text-decoration:none;writing-mode:tb-rl;text-align:center;padding-top:2%;display:block;}
+.page-5 .gift-container .giftCard-container ul.beforeFive{width:80%;height:70%;position:absolute;top:20%;left:10%;padding-left:2%;}
+.page-5 .gift-container .giftCard-container ul.beforeFive li{width:16%;height:38.5%;float:left;margin:0 3% 3% 0;}
+.page-5 .gift-container .giftCard-container ul.beforeFive li:nth-child(6n+0){margin-left:8%}
+.page-5 .gift-container .giftCard-container ul.beforeFive li a{display:block;height:100%;width:100%;background:url("../images/page-5/poker-back.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-5 .gift-container .giftCard-container ul.fifth{width:80%;height:70%;position:absolute;top:30%;left:14%;padding-left:2%;}
+.page-5 .gift-container .giftCard-container ul.fifth li{width:28%;height:63.7%;float:left;margin:0 3% 3% 0;}
+.page-5 .gift-container .giftCard-container ul.fifth li a{display:block;height:100%;width:100%;background:url("../images/page-5/poker-back.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+/*当屏幕最大宽度为1366px时：*/
+@media screen and (max-width:1366px) {
+	.page-5 .gift-container a.open-box i{display:block;width:39px;height:190px;font-size:28px;}
+	.page-5 .gift-container .giftCard-container a.gift-title{font-size:30px;}
+	.page-5 .gift-container .giftCard-container a.gift-desc{font-size:14px;}
+}
+

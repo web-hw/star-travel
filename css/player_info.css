@@ -1,0 +1,11 @@
+.player-info{width:69px;height:275px;position:fixed;right:10%;top:25%;background:url("../images/page-2/right-slider-bg.png") no-repeat;z-index:5;color:white;font-size:10px;font-family:微软雅黑;padding-top:30px;}
+.player-info ul li{width:100%;text-align:center;color:#f9d67a;height:45px;margin-bottom:5px;border-bottom:1px #423217 solid;}
+.player-info ul li:first-child{border-bottom:0;}
+.player-info ul li:last-child{border-bottom:0;}
+.player-info ul li:last-child a{font-size:14px;color:#f9d67a;}
+.player-info ul li:last-child a:hover{color:#e8b733;text-decoration:none;}
+.player-info ul li.player-header a{display:inline-block;width:43px;height:43px;background-color:#000;border-radius:22px;}
+/*当屏幕最大宽度为1366px时：*/
+@media screen and (max-width:1366px) {
+	.player-info{width:69px;height:275px;position:fixed;right:8%;top:25%;}
+}

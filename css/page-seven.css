@@ -1,0 +1,59 @@
+.page-7 .page-container{height:100%;width:90%;margin:auto;position:relative;}
+.page-7 .page-container .title{height:7%;width:50%;position:absolute;left:50%;margin-left:-25%;top:10%;
+	background:url("../images/page-2/title-bg.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-7 .page-container .title a{height:40%;width:10%;position:absolute;left:50%;top:30%;margin-left:-5%;
+	background:url("../images/page-7/title.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+
+.page-7 .page-container .line{width:85%;height:2px;border-bottom:1px #947f4a solid;position:absolute;top:25%;left:50%;margin-left:-43%;}
+.page-7 .page-container .tab{width:80%;height:5%;position:absolute;top:22.5%;left:50%;margin-left:-26%;}
+.page-7 .page-container .tab ul{height:100%;}
+.page-7 .page-container .tab ul li{float:left;width:121px;height:49px;margin-right:70px;}
+.page-7 .page-container .tab ul li a{display:block;height:49px;width:121px;text-align:center;cursor:pointer;font-size:12px;color:#f8d678;background:url("../images/page-7/tab_normal.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-7 .page-container .tab ul li a:hover{text-decoration:none;color:#121212;background:url("../images/page-7/tab_hover.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-7 .page-container .tab ul li a.on{color:#121212;background:url("../images/page-7/tab_hover.png") no-repeat;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.page-7 .page-container .tab ul li a.ready{padding-top:5.5%;}
+.page-7 .page-container .tab ul li a.future{padding-top:12%;}
+
+
+.page-7 .page-container .travel-step{width:1001px;height:576px;position:absolute;left:50%;top:30%;margin-left:-28%;}
+.page-7 .page-container .Saipan{background:url("../images/page-7/Saipan-step.png") no-repeat;}
+.page-7 .page-container .Saipan .title{width:223px;height:88px;background:url("../images/page-7/Saipan.png") no-repeat;margin-top:-30px;margin-left:-90px;}
+.page-7 .page-container .Maldives{background:url("../images/page-7/Maldives-step.png") no-repeat;}
+.page-7 .page-container .Maldives .title{width:436px;height:183px;background:url("../images/page-7/Maldives.png") no-repeat;margin-top:-60px;}
+
+/*当屏幕最大宽度为1366px时：*/
+@media screen and (max-width:1366px) {
+	.page-7 .page-container .line{width:85%;height:2px;border-bottom:1px #947f4a solid;position:absolute;top:23%;left:50%;margin-left:-43%;}
+	.page-7 .page-container .tab{width:80%;height:5%;position:absolute;top:20%;left:50%;margin-left:-33%;}
+	.page-7 .page-container .tab ul li{float:left;width:121px;height:49px;margin-right:50px;}
+	.page-7 .page-container .tab ul li:last-child{margin-right:0;}
+	
+	.page-7 .page-container .travel-step{width:800px;height:450px;position:absolute;left:50%;top:28%;margin-left:-33%;}
+	.page-7 .page-container .Saipan{background:url("../images/page-7/Saipan-step.png") no-repeat;
+		-webkit-background-size:100% 100%;
+		background-size:100% 100%;
+	}
+	.page-7 .page-container .Saipan .title{width:223px;height:88px;background:url("../images/page-7/Saipan.png") no-repeat;margin-top:-30px;margin-left:-90px;}
+	.page-7 .page-container .Maldives{background:url("../images/page-7/Maldives-step.png") no-repeat;
+		-webkit-background-size:100% 100%;
+		background-size:100% 100%;
+	}
+	.page-7 .page-container .Maldives .title{width:436px;height:183px;background:url("../images/page-7/Maldives.png") no-repeat;margin-top:-60px;}
+	
+	
+}

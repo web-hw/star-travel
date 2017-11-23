@@ -1,0 +1,22 @@
+@import "background.css";
+@import "page_one.css";
+@import "page-two.css";
+@import "page-three.css";
+@import "page-four.css";
+@import "page-five.css";
+@import "page-six.css";
+@import "page-seven.css";
+@import "nav_left.css";
+@import "player_info.css";
+@import "starTravel_animate.css";
+
+@font-face {
+	font-family:汉仪大隶书简;
+	src:url('../fonts/汉仪大隶书简.ttf');
+}
+@font-face {
+	font-family:华文行楷;
+	src:url('../fonts/华文行楷.ttf');
+}
+
+.top-line{height:38px;width:100%;position:fixed;top:0;left:0;z-index:5;}
